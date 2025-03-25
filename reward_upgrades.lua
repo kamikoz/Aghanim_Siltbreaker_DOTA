@@ -994,6 +994,9 @@ _G.SPELL_UPGRADE_REDUCTION = {
     jakiro_double_trouble = {
         attack_damage_reduction = true
     },
+    clinkz_death_pact = {
+        AbilityChargeRestoreTime = true
+    }
     --ITEMS:
     item_specialists_array = {
         AbilityCooldown = true
@@ -1124,6 +1127,9 @@ _G.MIN_SPELL_UPGRADE_VALUES_REQUIRED = {
     winter_wyvern_dragon_sight = {
         attack_range_per_damage = 1
     },
+    clinkz_death_pact = {
+        AbilityChargeRestoreTime = 1
+    }
     --copied
     viper_nethertoxin = {
         max_duration = 0.1
@@ -1730,6 +1736,9 @@ _G.MIN_SPELL_UPGRADE_VALUES = {
     jakiro_double_trouble = {
         attack_damage_reduction = 0
     },
+    clinkz_death_pact = {
+        AbilityChargeRestoreTime = 15
+    }
     --Tooltip dependencies
     chaos_knight_phantasm = {
         incoming_damage_tooltip = 115
@@ -1948,6 +1957,9 @@ _G.SPELL_UPGRADES_TO_INTEGERS = {
     },
     shadow_shaman_ether_shock = {
         targets = true
+    },
+    clinkz_burning_barrage = {
+        wave_count = true
     }
 }
 
@@ -2403,6 +2415,9 @@ _G.BLOCK_ADDING_TALENT_OVER_SPELL_VALUE_LIMIT = {
     },
     muerta_gunslinger = {
         double_shot_chance = true
+    },
+    clinkz_death_pact = {
+        AbilityChargeRestoreTime = true
     }
 }
 
@@ -2425,6 +2440,9 @@ _G.ALLOW_VERY_SMALL_UPGRADE_VALUES = {
     },
     pugna_nether_ward_sb2023 = {
         mana_multiplier = true
+    }
+    sven_wrath_of_god = {
+        bonus_damage_per_str = true
     }
 }
 
@@ -2457,6 +2475,36 @@ _G.SMALL_UPGRADES_BOOST_MULTIPLIER = {
         duration = 1.35,
         bonus_attack_speed = 1.35,
         bonus_damage = 2
+    },
+    lone_druid_spirit_bear = {
+        bear_bat = 2
+    }
+    centaur_stampede = {
+        strenght_damage
+    }
+    -- nerfs
+    clinkz_burning_barrage = {
+        wave_count = 0.5
+        damage_pct = 0.5
+    },
+    phantom_assassin_coup_de_grace = {
+        crit_chance = 0.75
+        crit_bonus = 0.75
+    },
+    troll_warlord_switch_stance = {
+        base_attack_time = 0.5
+    },
+    muerta_gunslinger = {
+        double_shot_chance = 0.75
+    }
+    muerta_pierce_the_veil = {
+        duration = 0.5
+    }
+    zuus_arc_lightning = {
+        arc_damage = 0.5
+    }
+    zuus_lightning_hands = {
+        arc_lightning_damage_pct = 0.45
     }
 }
 
@@ -2526,6 +2574,9 @@ _G.SHOW_MINUS_UPGRADE_TOOLTIP = {
     jakiro_double_trouble = {
         attack_damage_reduction = true
     },
+    clinkz_death_pact = {
+        AbilityChargeRestoreTime = true
+    }
     --items
     item_desolator_2 = {
         corruption_armor = true
